@@ -27,7 +27,7 @@ const ProfileScreen = () => {
       },
       headerLeft: () => (
         <Image
-          style={{ width: 140, resizeMode: "contain" }}
+          style={{ width: 140, resizeMode: "contain", marginLeft:12 }}
           source={require("../assets/amazon.png")}
         />
       ),

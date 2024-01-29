@@ -20,7 +20,6 @@ const SplashScreen = () => {
             justifyContent: "center",
             alignItems: "center",
             backgroundColor: "white",
-            marginTop: 25,
           }}
         >
           <Image

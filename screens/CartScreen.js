@@ -115,7 +115,8 @@ const CartScreen = () => {
           }}
         />
 
-        <View
+        <Pressable
+        
           style={{
             marginHorizontal: 10,
           }}
@@ -290,7 +291,7 @@ const CartScreen = () => {
               </Pressable>
             </View>
           ))}
-        </View>
+        </Pressable>
       </ScrollView>
     </SafeAreaView>
   );

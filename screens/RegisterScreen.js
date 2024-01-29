@@ -54,7 +54,6 @@ const RegisterScreen = () => {
         flex: 1,
         backgroundColor: "white",
         alignItems: "center",
-        marginTop: 50,
       }}
     >
       <View style={{ marginTop: 70 }}>
@@ -176,25 +175,6 @@ const RegisterScreen = () => {
               placeholder="enter your Password"
             />
           </View>
-        </View>
-
-        <View
-          style={{
-            marginTop: 12,
-            flexDirection: "row",
-            alignItems: "center",
-            justifyContent: "space-between",
-          }}
-        >
-          <Text>keep me logged in</Text>
-          <Text
-            style={{
-              color: "#007FFF",
-              fontWeight: "700",
-            }}
-          >
-            Forgot Password
-          </Text>
         </View>
 
         <View

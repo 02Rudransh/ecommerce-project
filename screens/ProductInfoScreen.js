@@ -36,6 +36,7 @@ const ProductInfoScreen = () => {
     }, 60000);
   };
   const cart = useSelector((state) => state.cart.cart);
+  
   console.log(cart);
   return (
     <SafeAreaView
@@ -240,6 +241,7 @@ const ProductInfoScreen = () => {
         </Pressable>
 
         <Pressable
+         onPress={() => navigation.navigate("Confirm")}
           style={{
             backgroundColor: "#FFAC1C",
             padding: 13,

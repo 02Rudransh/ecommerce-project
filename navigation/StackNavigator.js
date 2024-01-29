@@ -14,6 +14,7 @@ import CartScreen from "../screens/CartScreen";
 import ProfileScreen from "../screens/ProfileScreen";
 import ConfirmationScreen from "../screens/ConfirmationScreen";
 import OrderScreen from "../screens/OrderScreen";
+import ForgotPasswordScreen from "../screens/ForgotPasswordScreen";
 
 const StackNavigator = () => {
   const Stack = createNativeStackNavigator();
@@ -100,6 +101,11 @@ const StackNavigator = () => {
           component={RegisterScreen}
           options={{ headerShown: false }}
         />
+        {/* <Stack.Screen
+          name="ForgotPass"
+          component={ForgotPasswordScreen}
+          options={{ headerShown: false }}
+        /> */}
         <Stack.Screen
           name="Main"
           component={BottomTabs}
